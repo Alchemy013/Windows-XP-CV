@@ -20,20 +20,13 @@ Developer Tools: Git, Postman, Vercel
 
 PROFESSIONAL EXPERIENCE
 Research Intern | MedTech Innovations Lab May 2024 – Aug. 2024
-Developed a custom CNN-LSTM model for classifying Diabetic Foot Ulcer and Ischemia, achieving a 35% accuracy improvement using Elephant Herding Optimization, with 88% accuracy for ischemia and 87% for tissue damage.
-Benchmarked pretrained models like DenseNet, ResNet, and MobileNetV2 against the custom architecture, applying advanced optimization techniques to enhance performance and reduce overfitting.
 
 AI/ML Intern | Innosphere Ventures Nov. 2023 – Apr. 2024
-Developed an ADHD treatment platform using a Transformer-based BiLSTM-Attention model with LLMs, achieving 89% accuracy in symptom detection and improved engagement.
-Built a predictive pipeline with a Stacked Ensemble of CatBoost, LightGBM, and Transformer embeddings, achieving 92% accuracy in early symptom detection.
 
 PROJECTS
 Mentoo | Typescript, Supabase Ongoing
 Designed and developed a platform aimed at empowering men by offering a secure and supportive space for sharing personal experiences and challenges.
 Focused on fostering open dialogue, promoting mental health awareness, and addressing societal stigmas around masculinity.
-
-InsightX | Generative AI Ongoing
-Developed a Generative AI-powered web search platform using React and FastAPI, to provide real-time updates and validated sources to bridge knowledge gaps in LLMs.
 
 Sonar Shift | Sklearn, Pandas, Numpy
 Developed a logistic regression-based model for classifying underwater objects as rocks or mines using sonar signals.
