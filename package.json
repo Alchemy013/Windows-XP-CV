@@ -1,13 +1,13 @@
 {
-  "name": "winXP",
+  "name": "winxp",
   "version": "0.1.0",
   "private": true,
   "author": "ShizukuIchi <shizukuichi@gmail.com>",
   "homepage": "https://winxp.now.sh",
   "dependencies": {
     "lodash.samplesize": "^4.2.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "18",
+    "react-dom": "18",
     "react-scripts": "^5.0.1",
     "react-use": "^7.0.1",
     "styled-components": "^4.2.0",

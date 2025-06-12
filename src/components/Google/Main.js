@@ -6,9 +6,6 @@ function Main({ onSearch, className }) {
   function onChange(e) {
     setValue(e.target.value);
   }
-  function onClick() {
-    onSearch(value);
-  }
   function onKeyDown(e) {
     if (e.key !== 'Enter') return;
     onSearch(value);
@@ -17,17 +14,37 @@ function Main({ onSearch, className }) {
   return (
     <div className={className}>
       <nav>
-        <a href="#">Web</a>
-        <a href="#">Images</a>
-        <a href="#">Videos</a>
-        <a href="#">Maps</a>
-        <a href="#">News</a>
-        <a href="#">Shopping</a>
-        <a href="#">Mail</a>
+        <button type="button" className="link-button">
+          Web
+        </button>
+        <button type="button" className="link-button">
+          Images
+        </button>
+        <button type="button" className="link-button">
+          Videos
+        </button>
+        <button type="button" className="link-button">
+          Maps
+        </button>
+        <button type="button" className="link-button">
+          News
+        </button>
+        <button type="button" className="link-button">
+          Shopping
+        </button>
+        <button type="button" className="link-button">
+          Mail
+        </button>
         <span className="right-links">
-          <a href="#">iGoogle</a>
-          <a href="#">Search settings</a>
-          <a href="#">Sign in</a>
+          <button type="button" className="link-button">
+            Google
+          </button>
+          <button type="button" className="link-button">
+            Search settings
+          </button>
+          <button type="button" className="link-button">
+            Sign in
+          </button>
         </span>
       </nav>
 
@@ -49,8 +66,12 @@ function Main({ onSearch, className }) {
             autoComplete="off"
           />
           <div className="links-row">
-            <a href="#">Advanced Search</a>
-            <a href="#">Language Tools</a>
+            <button type="button" className="link-button">
+              Advanced Search
+            </button>
+            <button type="button" className="link-button">
+              Language Tools
+            </button>
           </div>
           <div className="buttons-row">
             <button type="submit">Google Search</button>
@@ -67,12 +88,27 @@ function Main({ onSearch, className }) {
 
       <footer>
         <div className="footer-links">
-          <a href="#">Advertising Programmes</a> -
-          <a href="#">Business Solutions</a> -<a href="#">About Google</a> -
-          <a href="#">Go to Google.com</a>
+          <button type="button" className="link-button">
+            Advertising Programmes
+          </button>{' '}
+          -
+          <button type="button" className="link-button">
+            Business Solutions
+          </button>{' '}
+          -
+          <button type="button" className="link-button">
+            About Google
+          </button>{' '}
+          -
+          <button type="button" className="link-button">
+            Go to Google.com
+          </button>
         </div>
         <div className="footer-bottom">
-          ©2010 - <a href="#">Privacy</a>
+          ©2010 -{' '}
+          <button type="button" className="link-button">
+            Privacy
+          </button>
         </div>
         <div className="footer-final">
           <span>Google is a trademark of Google Inc.</span>
@@ -89,22 +125,37 @@ export default styled(Main)`
   color: #222;
   position: relative;
 
+  .link-button {
+    background: none;
+    border: none;
+    color: #00c;
+    text-decoration: underline;
+    margin-right: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+  }
+  .link-button:hover,
+  .link-button:focus {
+    text-decoration: underline;
+    color: #3366cc;
+  }
+
   nav {
     width: 100%;
     font-size: 13px;
     padding: 7px 0 1px 7px;
     border-bottom: 1px solid #e5e5e5;
     background: #fff;
-    a {
-      color: #00c;
-      text-decoration: underline;
+    .link-button {
       margin-right: 13px;
-      font-family: Arial, Helvetica, sans-serif;
     }
     .right-links {
       float: right;
       margin-right: 18px;
-      a {
+      .link-button {
         margin-right: 9px;
       }
     }
@@ -144,12 +195,9 @@ export default styled(Main)`
       display: flex;
       justify-content: flex-end;
       margin-bottom: 10px;
-      a {
-        color: #00c;
+      .link-button {
         font-size: 11px;
         margin-left: 16px;
-        text-decoration: underline;
-        font-family: Arial, Helvetica, sans-serif;
       }
     }
     .buttons-row {
@@ -194,20 +242,16 @@ export default styled(Main)`
     font-family: Arial, Helvetica, sans-serif;
     .footer-links {
       margin-bottom: 4px;
-      a {
-        color: #00c;
-        text-decoration: underline;
+      .link-button {
         margin: 0 4px;
-        font-family: Arial, Helvetica, sans-serif;
       }
     }
     .footer-bottom {
       color: #666;
       font-size: 11px;
-      a {
+      .link-button {
         color: #00c;
         text-decoration: underline;
-        font-family: Arial, Helvetica, sans-serif;
       }
     }
     .footer-final {
