@@ -49,7 +49,7 @@ function Main({ onSearch, className }) {
       </nav>
 
       <main>
-        <img className="logo" alt="Google" src="src/assets/Google.png" />
+        <img className="logo" alt="Google" src="/Google.png" />
         <form
           onSubmit={e => {
             e.preventDefault();

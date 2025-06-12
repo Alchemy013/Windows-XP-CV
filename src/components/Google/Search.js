@@ -36,7 +36,7 @@ function Search({ className, goMain, onSearch, query }) {
             <img
               onClick={goMain}
               className="logo"
-              src="src/assets/Google.png"
+              src="/Google.png"
               alt="Google"
             />
             <div className="search-bar">
