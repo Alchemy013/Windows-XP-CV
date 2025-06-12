@@ -40,6 +40,7 @@ const File = [
     text: 'Exit',
   },
 ];
+
 const Edit = [
   {
     type: 'item',
@@ -105,6 +106,7 @@ const Edit = [
     text: 'Time/Date',
   },
 ];
+
 const Format = [
   {
     type: 'item',
@@ -116,6 +118,7 @@ const Format = [
     text: 'Font...',
   },
 ];
+
 const View = [
   {
     type: 'item',
@@ -123,6 +126,7 @@ const View = [
     text: 'Status Bar',
   },
 ];
+
 const Help = [
   {
     type: 'item',
@@ -135,4 +139,7 @@ const Help = [
     text: 'About Notepad',
   },
 ];
-export default { File, Edit, Format, View, Help };
+
+const dropDownData = { File, Edit, Format, View, Help };
+
+export default dropDownData;

@@ -375,6 +375,7 @@ const View = [
     hotkey: 'F11',
   },
 ];
+
 const Favorites = [
   {
     type: 'item',
@@ -434,6 +435,7 @@ const Favorites = [
     symbol: 'ie-paper',
   },
 ];
+
 const Tools = [
   {
     type: 'menu',
@@ -447,7 +449,6 @@ const Tools = [
         type: 'item',
         text: 'Read Mail',
       },
-
       {
         type: 'item',
         text: 'New Message...',
@@ -481,7 +482,6 @@ const Tools = [
         type: 'item',
         text: 'Turn Off Pop-up Blocker',
       },
-
       {
         type: 'item',
         text: 'Pop-up Blocker Settings...',
@@ -519,6 +519,7 @@ const Tools = [
     text: 'Internet Options...',
   },
 ];
+
 const Help = [
   {
     type: 'item',
@@ -548,4 +549,6 @@ const Help = [
     text: 'About Internet Explorer',
   },
 ];
-export default { File, Edit, View, Favorites, Tools, Help };
+
+const dropDownData = { File, Edit, View, Favorites, Tools, Help };
+export default dropDownData;

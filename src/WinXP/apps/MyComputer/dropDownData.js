@@ -27,6 +27,7 @@ export const File = [
     text: 'Close',
   },
 ];
+
 const Edit = [
   {
     type: 'item',
@@ -294,6 +295,7 @@ const View = [
     text: 'Refresh',
   },
 ];
+
 const Favorites = [
   {
     type: 'item',
@@ -353,6 +355,7 @@ const Favorites = [
     symbol: 'ie-paper',
   },
 ];
+
 const Tools = [
   {
     type: 'item',
@@ -374,6 +377,7 @@ const Tools = [
     text: 'Folder Options...',
   },
 ];
+
 const Help = [
   {
     type: 'item',
@@ -391,4 +395,7 @@ const Help = [
     text: 'About Windows',
   },
 ];
-export default { File, Edit, View, Favorites, Tools, Help };
+
+const dropDownData = { File, Edit, View, Favorites, Tools, Help };
+
+export default dropDownData;
