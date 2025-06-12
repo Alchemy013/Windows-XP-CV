@@ -49,7 +49,11 @@ function Main({ onSearch, className }) {
       </nav>
 
       <main>
-        <img className="logo" alt="Google" src="/Google.png" />
+        <img
+          className="logo"
+          alt="Google"
+          src="https://cdn.logojoy.com/wp-content/uploads/20230801145708/google-logo-1999-1024x371.png"
+        />
         <form
           onSubmit={e => {
             e.preventDefault();

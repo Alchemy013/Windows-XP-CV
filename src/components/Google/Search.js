@@ -36,7 +36,7 @@ function Search({ className, goMain, onSearch, query }) {
             <img
               onClick={goMain}
               className="logo"
-              src="/Google.png"
+              src="https://cdn.logojoy.com/wp-content/uploads/20230801145708/google-logo-1999-1024x371.png"
               alt="Google"
             />
             <div className="search-bar">
