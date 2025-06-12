@@ -347,7 +347,7 @@ function MyComputer({ onClose }) {
                 >
                   <img
                     className="com__content__right__card__img"
-                    src="/rickroll.png"
+                    src="/src/assets/rickroll.png"
                     alt="Rick"
                   />
                   <div className="com__content__right__card__text">
